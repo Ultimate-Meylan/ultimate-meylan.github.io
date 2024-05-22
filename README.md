@@ -1,12 +1,4 @@
 
-## Docker
+## Site web du club d'ultimate de Meylan
 
-Build image:
-```
-> docker build -t hugo .
-```
-
-Run hugo:
-```
-> docker run -it -v .:/home/hugo -p 1313:1313 hugo
-```
+https://ultimate-meylan.github.io
