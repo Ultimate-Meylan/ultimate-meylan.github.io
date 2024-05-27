@@ -10,12 +10,13 @@
         <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
         <div class="divider"></div>
       </div>
-      <div class="column is-7 mt-60">
+      <div class="column is-8 mt-60">
         {{- range $features }}
         <article class="media icon-box">
           <figure class="media-left">
             <p class="image">
-              <img src="{{ printf "images/illustrations/icons/%s.svg" .icon | relURL }}">
+              <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=5.763643383979798%2C45.2035285920389%2C5.768294334411621%2C45.205974017044916&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=18/45.20475/5.76597">Afficher une carte plus grande</a></small>
+              <!-- <img src="{{ printf "images/illustrations/icons/%s.svg" .icon | relURL }}"> -->
             </p>
           </figure>
           <div class="media-content mt-50">

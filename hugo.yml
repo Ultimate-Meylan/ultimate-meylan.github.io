@@ -29,7 +29,7 @@ params:
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/logo.png
-    link: /
+    link: /#
     # Default width. Uncomment if you need to change (note: navbar item height is fixed in css to max 36px)
     width: 300
 
@@ -45,18 +45,18 @@ params:
     # Button text
     buttontext: Nous rejoindre
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: /#section5
     # Hero image (from static/images/___)
     image: illustrations/hero.png
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Ultimate Frisbee
-    url: /
-  - title: Club
-    url: /
-  - title: Entrainements
-    url: /
+  - title: L'Ultimate Frisbee
+    url: /#section3
+  - title: Entraînement
+    url: /#section2
+  - title: Contact
+    url: /#section5
   # - title: Dropdown
   #   sublinks:
   #   - title: Dropdown item
@@ -89,26 +89,18 @@ params:
   #     text: This is some explanatory text that is on two rows
   #     url: /
   #     buttonText: Get started
-  # section2:
-  #   title: You're here because you want the best
-  #   subtitle: And we know it
-  #   features:
-  #   - title: Powerful and unified interface
-  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #     # Icon (from static/images/illustrations/icons/___.svg)
-  #     icon: laptop-globe
-  #   - title: Cross-device synchronisation
-  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #     icon: doc-sync
-  #   - title: Nomad system
-  #     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-  #     icon: mobile-feed
-  # section3:
-  #   title: One platform
-  #   subtitle: To rule them all
-  #   image: illustrations/mockups/app-mockup.png
-  #   buttonText: Get started
-  #   buttonLink: "#"
+  section3:
+    title: L'Ultimate Frisbee
+    subtitle: Découvrez l'ultimate frisbee avec cette vidéo de la Fédération Française de Flying Disc (FFFD).
+    videoUrl: https://www.youtube.com/embed/LHxspy6YCzQ?si=W3Dwaqi1CDvqDQEF
+  section2:
+    title: Entraînement
+    subtitle: Saison 2023-2024  
+    features:
+    - title: Mardi 19h/21h
+      text: Stade Albert Batteux (terrain stabilisé), Meylan
+      # Icon (from static/images/illustrations/icons/___.svg)
+      icon: laptop-globe
   # section4:
   #   title: Our Clients love us!
   #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
