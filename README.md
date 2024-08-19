@@ -1,4 +1,5 @@
 
 ## Site web du club d'ultimate de Meylan
 
-https://ultimate-meylan.github.io
+https://meylan-ultimate-frisbee.org
+
