@@ -1,9 +1,0 @@
-/* Add custom styles here */
-html {
-    scroll-behavior: smooth; /* Enables smooth scrolling */
-}
-
-/* Optional: Text color adjustments for better readability */
-h1, h2 {
-    color: #333; /* Darker text for contrast */
-}
