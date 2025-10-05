@@ -7,3 +7,10 @@ html {
 h1, h2 {
     color: #333; /* Darker text for contrast */
 }
+
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-height: 32px;
+    }
+}
